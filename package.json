@@ -1,0 +1,21 @@
+{
+  "name": "binance-square-realtime",
+  "version": "1.0.0",
+  "description": "Real-time Binance Square post monitor over WebSocket (Node + Python example clients).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "binance-square",
+    "binance-square-api",
+    "websocket",
+    "real-time",
+    "crypto",
+    "monitoring"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
