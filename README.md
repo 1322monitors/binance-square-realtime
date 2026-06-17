@@ -1,5 +1,7 @@
 # binance-square-realtime
 
+[![License: MIT](https://img.shields.io/github/license/SisoSol/binance-square-realtime?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/SisoSol/binance-square-realtime?style=flat-square)](https://github.com/SisoSol/binance-square-realtime/commits) [![CI](https://github.com/SisoSol/binance-square-realtime/actions/workflows/ci.yml/badge.svg)](https://github.com/SisoSol/binance-square-realtime/actions/workflows/ci.yml) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/SisoSol/binance-square-realtime/pulls)
+
 Real-time **Binance Square** post monitor over **WebSocket**. Minimal Node and
 Python clients that stream new Binance Square posts (with the coin pairs they
 mention) the moment they publish.
