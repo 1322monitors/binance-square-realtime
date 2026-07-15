@@ -77,6 +77,8 @@ Other real-time monitors in the same family:
 - Instagram: https://github.com/SisoSol/instagram-realtime
 - All six platforms: https://github.com/SisoSol/social-monitor-examples
 
+Using Square posts as trading signals: https://1322.io/use-cases/binance-square-signals
+
 MIT licensed.
 
 ## 中文
