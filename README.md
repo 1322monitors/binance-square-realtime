@@ -7,20 +7,11 @@
 </p>
 <p align="center"><sub>▶ The <a href="https://1322.io">1322</a> dashboard these clients stream from — API keys, WebSocket &amp; REST endpoints, live feed.</sub></p>
 
-Real-time **Binance Square** post monitor over **WebSocket**. Minimal Node and
-Python clients that stream new Binance Square posts (with the coin pairs they
-mention) the moment they publish.
+Real-time Binance Square post monitor over WebSocket: minimal Node and Python clients that stream new Binance Square posts, with the coin pairs they mention already extracted, the moment they publish. There is no official Binance API for reading Binance Square posts in real time (the public Square endpoint is for publishing), so this is a Binance Square API alternative for crypto trading signals. It runs against the 1322 managed feed (WebSocket and REST, sub-second typical, with Discord, Telegram and webhook delivery); the client pattern is generic. Maintained by the 1322 team.
 
-There is **no official Binance API for reading Binance Square posts in real
-time** (the public Square endpoint is for *publishing* content, not monitoring).
 The common workarounds are browser automation or scraping the Square web app on
 a timer. This repo shows the alternative: a persistent WebSocket that pushes each
-post as it is detected, so you are not polling.
-
-These examples run against the [1322](https://1322.io) managed Binance Square
-feed (real-time WebSocket + REST, roughly 150-250ms detection, with optional
-Discord / Telegram / webhook delivery). The client pattern is generic, so you
-can point it at any compatible WebSocket source.
+post as it lands, so you are not polling.
 
 - Binance Square monitoring (what it covers, pricing): https://1322.io/platforms/binance
 - Guide: https://1322.io/blog/binance-square-api-guide
@@ -72,10 +63,12 @@ https://1322.io/blog/binance-square-api-guide
 
 Other real-time monitors in the same family:
 
+- Social posts into a trading strategy: https://github.com/SisoSol/social-trading-signals
+- Async Python client for the 1322 API: https://github.com/SisoSol/1322-python
 - Twitter/X: https://github.com/SisoSol/twitter-websocket-client
 - Truth Social: https://github.com/SisoSol/truthsocial-stream
 - Instagram: https://github.com/SisoSol/instagram-realtime
-- All six platforms: https://github.com/SisoSol/social-monitor-examples
+- All seven platforms: https://github.com/SisoSol/social-monitor-examples
 
 Using Square posts as trading signals: https://1322.io/use-cases/binance-square-signals
 
