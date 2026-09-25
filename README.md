@@ -1,6 +1,6 @@
 # binance-square-realtime
 
-[![License: MIT](https://img.shields.io/github/license/SisoSol/binance-square-realtime?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/SisoSol/binance-square-realtime?style=flat-square)](https://github.com/SisoSol/binance-square-realtime/commits) [![CI](https://github.com/SisoSol/binance-square-realtime/actions/workflows/ci.yml/badge.svg)](https://github.com/SisoSol/binance-square-realtime/actions/workflows/ci.yml) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/SisoSol/binance-square-realtime/pulls)
+[![License: MIT](https://img.shields.io/github/license/1322monitors/binance-square-realtime?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/1322monitors/binance-square-realtime?style=flat-square)](https://github.com/1322monitors/binance-square-realtime/commits) [![CI](https://github.com/1322monitors/binance-square-realtime/actions/workflows/ci.yml/badge.svg)](https://github.com/1322monitors/binance-square-realtime/actions/workflows/ci.yml) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/1322monitors/binance-square-realtime/pulls)
 
 <p align="center">
   <a href="https://1322.io"><img src="assets/demo.gif" alt="1322 real-time feed demo" width="680"></a>
@@ -63,12 +63,12 @@ https://1322.io/blog/binance-square-api-guide
 
 Other real-time monitors in the same family:
 
-- Social posts into a trading strategy: https://github.com/SisoSol/social-trading-signals
-- Async Python client for the 1322 API: https://github.com/SisoSol/1322-python
-- Twitter/X: https://github.com/SisoSol/twitter-websocket-client
-- Truth Social: https://github.com/SisoSol/truthsocial-stream
-- Instagram: https://github.com/SisoSol/instagram-realtime
-- All seven platforms: https://github.com/SisoSol/social-monitor-examples
+- Social posts into a trading strategy: https://github.com/1322monitors/social-trading-signals
+- Async Python client for the 1322 API: https://github.com/1322monitors/1322-python
+- Twitter/X: https://github.com/1322monitors/twitter-websocket-client
+- Truth Social: https://github.com/1322monitors/truthsocial-stream
+- Instagram: https://github.com/1322monitors/instagram-realtime
+- All seven platforms: https://github.com/1322monitors/social-monitor-examples
 
 Using Square posts as trading signals: https://1322.io/use-cases/binance-square-signals
 
